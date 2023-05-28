@@ -8,11 +8,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Community />
-      <Subscription />
-      <Why />
+      <main className="price">
+        <Community />
+        <Subscription />
+        <Why />
+      </main>
       <Footer />
-
     </div>
   );
 }

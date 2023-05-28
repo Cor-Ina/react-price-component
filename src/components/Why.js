@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Why() {
     return (
-        <section class="why">
+        <section className="why">
             <h2>Why Us</h2>
             <ul>
                 <li>Tutorials by industry experts</li>

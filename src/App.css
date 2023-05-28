@@ -141,7 +141,7 @@ p {
   margin-bottom: 2.5rem;
 }
 
-.subscription a {
+.signuplink a {
   display: block;
   background-color: var(--yellow);
   color: var(--dark);
@@ -156,7 +156,7 @@ p {
   transition: background-color 200ms ease;
 }
 
-.subscription a:hover {
+.signuplink a:hover {
   background-color: var(--dkyellow);  
 }
 
