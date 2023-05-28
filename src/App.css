@@ -10,12 +10,19 @@ html {
 :root {
   --white: hsl(0, 0%, 100%);
   --dark: hsl(0, 0%, 0%);
-  --cyan: hsl(179, 62%, 25%);
-  --ltcyan: hsl(179, 62%, 30%);
-  --yellow: hsl(71, 73%, 58%);
-  --dkyellow: hsl(71, 73%, 48%);
+  --blue3: #006699;
+  --blue2: #0099cc;
+  --blue1: #0099ff;
+  --blue0: #33ffcc;
+  
+  --yellow4: #ff9900;
+  --yellow3: #ffcc33;
+  --yellow2: #ffcc66;
+  --yellow1: #ffd700;
+  
   --ltgray: hsl(204, 43%, 96%);
   --grayblue: hsl(218, 22%, 67%);
+
   --subtitle: hsl(0, 0%, 45%);
   }
 
@@ -117,7 +124,7 @@ p {
 }
 
 .subscription {
-  background-color: var(--cyan);  
+  background-color: var(--blue3);  
 }
 
 .subscription--price {  
@@ -157,11 +164,11 @@ p {
 }
 
 .signuplink a:hover {
-  background-color: var(--dkyellow);  
+  background-color: var(--yellow3);  
 }
 
 .why {
-  background-color: var(--ltcyan);
+  background-color: var(--blue2);
 }
 
 .why ul {
