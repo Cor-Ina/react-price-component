@@ -10,8 +10,8 @@ html {
 :root {
   --white: hsl(0, 0%, 100%);
   --dark: hsl(0, 0%, 0%);
-  --blue3: #006699;
-  --blue2: #0099cc;
+  --blue3: hsl(195,100%, 25%);
+  --blue2: hsl(195,100%, 31%);
   --blue1: #0099ff;
   --blue0: #33ffcc;
   
@@ -78,6 +78,7 @@ p {
 
 .price {
   max-width: 63.5rem;
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
 }
 
 @media only screen and (min-width: 600px){
@@ -103,7 +104,7 @@ p {
 }
 
 .community h1 {
-  color: var(--ltcyan);
+  color: var(--blue3);
 }
 
 .community .subtitle {    
@@ -150,7 +151,7 @@ p {
 
 .signuplink a {
   display: block;
-  background-color: var(--yellow);
+  background-color: var(--yellow3);
   color: var(--dark);
   font-size: 1.6rem;
   line-height: 1.87;
@@ -164,7 +165,7 @@ p {
 }
 
 .signuplink a:hover {
-  background-color: var(--yellow3);  
+  background-color: var(--yellow4);  
 }
 
 .why {
@@ -229,6 +230,6 @@ footer {
 }
 
 .attribution a { 
-  color: var(--cyan); 
+  color: var(--blue3); 
   font-weight: bold;
 }
